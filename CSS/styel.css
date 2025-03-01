@@ -1,0 +1,207 @@
+body{
+    margin-top:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+img{
+    width:100% ;
+}
+
+header{
+    color: whitesmoke;
+    align-items: center;
+    padding: 20px 50px;
+    background-image:url(../Image/cabo\ da\ roca.jpg) ;
+    background-color: rgb(0 0 0 / 79%);
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    }
+.logo {
+
+}
+.logo a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo h3{
+    font-size: 30px;
+    margin: 0%;
+    text-transform: capitalize;
+}
+.logo h3 span{
+font-weight: 200;
+}
+nav{
+
+}
+nav ul{
+
+}
+nav ul li{
+    display: inline;
+    margin: 24px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.banner{
+    text-align: center;
+    padding: 100px 0px;
+}
+.banner h3{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.banner span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+
+}
+.banner h1{
+    font-size: 70px;
+
+}
+.banner button{
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: red;
+    border: 2px solid red;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+.up-event{
+    text-align: center;
+    margin:50px 159px ;
+}
+.up-event h2{
+    font-size: 40px;
+    margin: bottom 10px; ;}
+.up-event span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10pxpx;
+}
+.event{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap :40px;
+    margin:30px 0 0 0;}
+.event-item{}
+.event-item img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+object-fit: cover;
+background-position: center;
+}
+.event-item h4{
+    font-size: 22px;
+    margin: 10px 0 0 0;}
+
+.event-item a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+
+.explore-main{
+    background-image: url(../Image/father.jpg);
+    background-position: center;
+    background-color: rgba(0, 0, 255, 0.458);
+    background-blend-mode: multiply;
+    color: whitesmoke;
+    background-attachment: fixed;
+
+}
+.explore{
+    padding: 100px;
+    display: flex;
+}
+.explore-item{
+    width: 50%;
+}
+.explore-item h1{
+    font-size: 70px;
+    margin: 10px 0 0 0;
+
+}
+.explore-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display:inline-block;
+    margin:auto;
+    border-radius: 5px;
+}
+.explore-item p{
+    margin: 30px 0 ;
+}
+.explore-item a{
+    font: size 19px; 
+    font-weight: 600;
+    text-decoration: none;
+    color: red;
+}
+.tour{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;;
+}
+.tour-item{
+}
+.tour-item h5{
+    font-size: 25px;
+    margin: 0 0 0 0;
+
+}
+.tour-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+.tour-item p{}
+.tour-item a{
+    text-decoration: none;
+    color: red;
+}
+.tour-item img{}
+.img-one{
+    height: 250px;
+    margin: 0 0 20px 0;
+}
+.img-two{
+    height: 350px;
+    margin: 0 0 20px 0;
+}
+footer{
+    padding: 100px;
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+}
