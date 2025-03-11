@@ -1,0 +1,659 @@
+/* Mobile */
+@media only screen and (max-width: 667px) and (min-width:375px){
+    /* Banner */
+    header{
+        padding: 10px 15px;
+        text-align: center;
+    }
+    .navbar{
+        display:block;
+        }
+    .logo a {
+      
+    }
+    .logo h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .logo h3 span{
+    font-weight: 200;
+    }
+    nav ul{
+        padding:0px ;
+    }
+    nav ul li{
+        display: inline;
+        margin: 5px;
+    }
+    nav ul li a {
+    }
+    .banner{
+        text-align: center;
+        padding: 50px px;
+    }
+    .banner h3{
+        font-size: 25px;;
+    }
+    .banner span{
+        height: 4px;
+        width: 150px;
+        display:inline-block;
+    }
+    .banner h1{
+        font-size: 30px;;
+    }
+    .banner button{
+        padding: 10px 20px;
+    }
+    /*upcomming event*/
+    .up-event{
+        text-align: center;
+        margin:50px 0px ;
+    }
+    .up-event h2{
+        font-size: 35px;}
+    .up-event span{
+        background-color: rgb(255, 0, 0);
+        height: 4px;
+        width: 190px;
+        display: inline-block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .event{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap :40px;
+        margin:30px 0 0 0;}
+    .event-item img{
+        width: 250px;
+    }
+    .event-item h4{
+        font-size: 22px;
+        margin: 10px 0 0 0;}
+    
+    .event-item a{
+        font-size: 20px;
+        color: red;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+    /* Explore */
+    .explore{
+        padding: 70px 20px;
+        display: block;
+    }
+    .explore-item{
+        width: 30%;
+    }
+    .explore-item h1{
+        font-size: 35px;
+        margin: 0 0 0 0;
+    }
+    .explore-item span{
+        background-color: rgb(255, 0, 0);
+        height: 4px;
+        width: 190px;
+        display:inline-block;
+        border-radius: 5px;
+    }
+    .explore-item p{
+        margin: 20px 0 ;
+    }
+    .explore-item a{
+        font-size:18px; 
+        font-weight: 500;
+    }
+     /* UPCOMING TOUR AND DESTINATION */
+.tour{
+    padding: 60px 15px;
+    display: block;
+}
+.tour-item h5{
+    font-size: 20px;
+}
+.tour-item span{
+    border-radius: 8px;
+}
+.tour-item a{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.img-one{
+    height: 200px;
+    margin: 0 0 15px 0;
+    object-fit: cover;
+}
+.img-two{
+    height: 200px;
+    margin: 0 0 15px 0;
+    object-fit: cover;
+}
+footer{
+    padding: 50px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+.fa-brands{
+    font-size: 30px;
+    margin: 0 px;
+}
+ }
+ /* Tab */
+ @media only screen (min-width: 667px) and (max-width: 768px){
+   
+    /* Banner */
+header{
+    color: whitesmoke;
+    align-items: center;
+    padding: 20px 50px;
+    background-image:url(../Image/cabo\ da\ roca.jpg) ;
+    background-color: rgb(0 0 0 / 79%);
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    }
+.logo a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo h3{
+    font-size: 30px;
+    margin: 0%;
+    text-transform: capitalize;
+}
+.logo h3 span{
+font-weight: 200;
+}
+nav ul li{
+    display: inline;
+    margin:0 0 0 18px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700px;
+    color: whitesmoke;
+}
+.banner{
+    text-align: center;
+    padding: 100px 0px;
+}
+.banner h3{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.banner span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display:inline-block;
+    border-radius: 5px;
+}
+.banner h1{
+    font-size: 65px;
+}
+.banner button{
+    padding: 15px 30px;
+    font-size: 22px;
+    background-color: red;
+    border: 2px solid red;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 35px;
+}
+/*upcomming event*/
+.up-event{
+    text-align: center;
+    margin:50px 0px ;
+}
+.up-event h2{
+    font-size: 35px;}
+.up-event span{
+    background-color: rgb(255, 0, 0);
+    height: 4px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+.event{
+    display:flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap :40px;
+    margin:30px 0 0 0;
+}
+.event-item img{
+    width: 250px;
+}
+.event-item h4{
+    font-size: 22px;
+    margin: 10px 0 0 0;}
+
+.event-item a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+ /* Explore */
+ .explore{
+    padding: 70px 20px;
+    display: block;
+}
+.explore-item{
+    width: 50%;
+}
+.explore-item h1{
+    font-size: 35px;
+    margin: 0 0 0 0;
+}
+.explore-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display:inline-block;
+    border-radius: 15px;
+}
+.explore-item p{
+    margin: 20px 0 ;
+}
+.explore-item a{
+    font-size:18px; 
+    font-weight: 500;
+}
+/* UPCOMING TOUR AND DESTINATION */
+.tour{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;;
+}
+.tour-item h5{
+    font-size: 25px;
+    margin: 0 0 0 0;
+}
+.tour-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+.tour-item a{
+    text-decoration: none;
+    color: red;
+}
+.img-one{
+    height: 250px;
+    margin: 0 0 20px 0;
+    object-fit: cover;
+}
+.img-two{
+    height: 350px;
+    margin: 0 0 20px 0;
+    object-fit: cover;
+}
+.fa-brands{
+    font-size: 45px;
+    margin: 0 10px;
+}
+}
+/* Laptop */
+@media  only screen(min-width: 769px) and (max-width: 1024px){
+    p{
+        font-size: 20px;
+    }
+    /* Banner */
+header{
+
+    color:white;
+    align-items: center;
+    padding: 20px 50px;
+    background-image:url(../Image/cabo\ da\ roca.jpg) ;
+    background-color: rgb(0 0 0 / 79%);
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    }
+.logo a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo h3{
+    font-size: 40px;
+    margin: 0%;
+    text-transform: capitalize;
+}
+.logo h3 span{
+font-weight: 200;
+}
+nav ul li{
+    font-size: 20px;
+    display: inline;
+    margin:0 0 0 80px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700px;
+    color: whitesmoke;
+}
+.banner{
+    text-align: center;
+    padding: 100px 0px;
+}
+.banner h3{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.banner span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 900px;
+    display:inline-block;
+    border-radius: 5px;
+}
+.banner h1{
+    font-size: 80px;
+}
+.banner button{
+    padding: 15px 30px;
+    font-size: 22px;
+    background-color: red;
+    border: 2px solid red;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 60px;
+}
+/*upcomming event*/
+.up-event{
+    text-align: center;
+    margin:50px 0px ;
+}
+.up-event h2{
+    font-size: 35px;}
+.up-event span{
+    background-color: rgb(255, 0, 0);
+    height: 4px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+.event{
+    display:flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap :50px;
+    margin:30px 0 0 0;
+}
+.event-item img{
+    height: 400px;
+    width: 400px;
+}
+.event-item h4{
+    font-size: 22px;
+    margin: 10px 0 0 0;}
+
+.event-item a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+ /* Explore */
+ .explore{
+    padding: 70px 20px;
+    display: block;
+}
+.explore-item{
+    width: 50%;
+}
+.explore-item h1{
+    font-size: 38px;
+    margin: 0 0 0 0;
+}
+.explore-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display:inline-block;
+    border-radius: 15px;
+}
+.explore-item p{
+    margin: 30px 0 ;
+    font-size: 25px;
+}
+.explore-item a{
+    font-size:20px; 
+    font-weight: 500;
+}
+/* UPCOMING TOUR AND DESTINATION */
+.tour{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;;
+}
+.tour-item h5{
+    font-size: 35px;
+    margin: 0 0 0 0;
+}
+.tour-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+.tour-item a{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+.img-one{
+    height: 250px;
+    margin: 0 0 20px 0;
+    object-fit: cover;
+}
+.img-two{
+    height: 350px;
+    margin: 0 0 20px 0;
+    object-fit: cover;
+}
+.fa-brands{
+    font-size: 45px;
+    margin: 0 10px;
+}
+.footer p{
+    font-size: 20px;
+}
+}
+/* Large Device */
+@media  only screen(min-width: 769px) and (max-width: 1440px){
+    p{
+        font-size:30px;
+    }
+    /* Banner */
+    header{
+        color: whitesmoke;
+        align-items: center;
+        padding: 20px 50px;
+        background-image:url(../Image/cabo\ da\ roca.jpg) ;
+        background-color: rgb(0 0 0 / 79%);
+        background-blend-mode: multiply;
+        background-repeat:no-repeat;
+        background-size: cover;
+    
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        }
+    .logo a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .logo h3{
+        font-size: 50px;
+        margin: 0%;
+        text-transform: capitalize;
+    }
+    .logo h3 span{
+    font-weight:500px;
+    }
+    nav ul li{
+        font-size: 35px;
+        display: inline;
+        margin:0 0 0 80px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-weight: 700px;
+        color: whitesmoke;
+    }
+    .banner{
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .banner h3{
+        font-size: 40px;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+    .banner span{
+        background-color: rgb(255, 0, 0);
+        height: 5px;
+        width: 190px;
+        display:inline-block;
+        border-radius: 5px;
+    }
+    .banner h1{
+        font-size: 80px;
+    }
+    .banner button{
+        padding: 15px 30px;
+        font-size: 30px;
+        background-color: red;
+        border: 2px solid red;
+        color: whitesmoke;
+        text-decoration: none;
+        border-radius: 80px;
+    }
+    /*upcomming event*/
+    .up-event{
+        text-align: center;
+        margin:50px 0px ;
+    }
+    .up-event h2{
+        font-size: 50px;}
+    .up-event span{
+        background-color: rgb(255, 0, 0);
+        height: 6px;
+        width: 400px;
+        display: inline-block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .event{
+        display:flex;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap :50px;
+        margin:30px 0 0 0;
+    }
+    .event-item img{
+        height: 400px;
+        width: 400px;
+    }
+    .event-item h4{
+        font-size: 30px;
+        margin: 10px 0 0 0;}
+    
+    .event-item a{
+        font-size: 30px;
+        color: red;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+     /* Explore */
+     .explore{
+        padding: 70px 20px;
+        display: block;
+    }
+    .explore-item{
+        width: 50%;
+    }
+    .explore-item h1{
+        font-size: 40px;
+        margin: 0 0 0 0;
+    }
+    .explore-item span{
+        background-color: rgb(255, 0, 0);
+        height: 5px;
+        width: 400px;
+        display:inline-block;
+        border-radius: 15px;
+    }
+    .explore-item p{
+        margin: 30px 0 ;
+    }
+    .explore-item a{
+        font-size:30px; 
+        font-weight: 500;
+    }
+    /* UPCOMING TOUR AND DESTINATION */
+    .tour{
+        padding: 60px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:30px;;
+    }
+    .tour-item h5{
+        font-size: 40px;
+        margin: 0 0 0 0;
+    }
+    .tour-item span{
+        background-color: rgb(255, 0, 0);
+        height: 5px;
+        width: 350px;
+        display: inline-block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .tour-item a{
+        font-size: 30px;
+        text-decoration: none;
+        color: red;
+    }
+    .img-one{
+        height: 400px;
+        margin: 0 0 20px 0;
+        object-fit: cover;
+    }
+    .img-two{
+        height: 400px;
+        margin: 0 0 20px 0;
+        object-fit: cover;
+    }
+    .fa-brands{
+        font-size: 45px;
+        margin: 0 10px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    }
+
