@@ -1,0 +1,813 @@
+/* small mobile */
+@media only screen and (max-width: 320px) and (min-width:301px){
+    .menu-toggle {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav.active {
+        display: flex;
+    }
+    .menu-toggle {
+      font-size: 35px;
+      cursor: pointer;
+      float: right;
+      line-height: 80px;
+      margin-right: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        padding: 8px 0;
+    }
+    nav ul li a:hover {
+      background-color: #007bff; 
+    }
+    header {
+        align-items: center;
+        padding: 10px 20px; 
+        font-size: 16px; 
+    }
+/* header */
+    .navbar {
+        
+        padding: 10px 0;
+    }
+
+    .logo h3 {
+        font-size: 20px; 
+    }
+    nav ul {
+        flex-direction: column; 
+        align-items: center;
+        gap: 10px; 
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .banner {
+        padding: 50px 0; 
+        font-size: 20px; 
+    }
+
+    .banner h1 {
+        font-size: 28px; 
+    }
+    .banner h3{
+        font-size: 28px;
+    }
+
+    .banner button {
+        padding: 5px 10px; 
+        font-size: 14px; 
+    }
+/* upcoming event */
+    .up-event {
+        margin: 20px 10px; 
+    }
+    .up-event h2 {
+        font-size: 30px;
+        margin-bottom: 8px; 
+    }
+    .up-event span {
+        width: 150px; 
+    }
+    .event {
+        grid-template-columns: 1fr;
+        grid-gap: 20px; 
+    }
+    .event-item img {
+        width: 100%; 
+        height: auto;
+        border-radius: 8px; 
+    }
+
+    .event-item h4 {
+        font-size: 18px; /
+    }
+
+    .event-item a {
+        font-size: 18px; 
+    }
+/* explore */
+    .explore {
+        padding: 50px 10px; 
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    .explore-item {
+        width: 100%; 
+    }
+
+    .explore-item h1 {
+        font-size: 32px;
+        text-align: center; 
+    }
+
+    .explore-item span {
+        width: 120px;
+    }
+
+    .explore-item p {
+        font-size: 16px; 
+    }
+
+    .explore-item a {
+        font-size: 16px; 
+    }
+/* tour-item */
+    .tour {
+        padding: 20px; 
+        grid-template-columns: 1fr;
+        grid-gap: 15px; 
+    }
+
+    .tour-item h5 {
+        font-size: 18px; 
+    }
+
+    .tour-item span {
+        width: 120px; 
+    }
+
+    .img-one{
+        margin: 0 0 15px 0;
+        height: 200px;
+        width: 100%;  
+        object-fit: cover;
+    }
+    .img-two {
+        margin: 0 0 15px 0;
+        height: 200px;
+        width: 100%;  
+        object-fit: cover;
+    }
+
+    .tour-item a {
+        font-size: 16px;
+    }
+    /* Adventure Gallery */
+#adventure-gallery {
+    text-align: center;
+    padding: 35px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #adventure-gallery h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 5px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .gallery-item img {
+    width: 95%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay p {
+    font-size: 1.5em;
+  }
+/* Quiz */
+.quiz h1{
+    padding: 5px;
+    text-align: center;
+}
+#adventure-quiz {
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #e9f7f7;
+  }
+  
+  #adventure-quiz h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .quiz-container {
+    display: inline-block;
+    background-color: #fff;
+    padding:  20px 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 100%;
+  }
+  
+  
+  .question h2{
+    font-size: 20px;
+  }
+  .question p {
+    font-size: 18px;
+  }
+  
+  .answers label {
+    font-size: 18px;
+  }
+  
+ 
+  .submit-btn button {
+    text-align: center;
+    max-width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  /* Customer Support section */
+  .support-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .contact-info, .contact-form {
+    width: 85%;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h3, .contact-form h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info ul {
+  }
+  
+  .contact-info li {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+    .form-group input {
+    padding: 12px 12px;
+    font-size: ;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-group label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 5px 10px;
+  }
+  
+  
+/* booking   */
+#booking {
+    text-align: center;
+    padding: 30px 3px;
+  }
+  
+  #booking h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .booking-container {
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    max-width: 100%;
+  }
+  
+  .booking-form {
+    display: grid;
+    gap: 8px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-group button {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group button:hover {
+    background-color: red;
+  }
+  /* Blog Newsletter */
+  .blog span{
+    width: 200px;
+  }
+  #newsletter {
+    text-align: center;
+    padding: 30px 3px;
+    background-color: #f4f9f9;
+  }
+  
+  #newsletter h2 {
+    font-size: 22px;
+  }
+  
+  #newsletter p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .subscription-form {
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    max-width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    resize: vertical;
+    padding: 12px 15px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group button {
+    padding: 5px 10px;
+    font-size: 1.1em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+    /* footer */
+    footer{
+        padding: 20px;
+        text-align: center;
+        color:white;
+        background-color: black;
+    }
+    .fa-brands{
+        font-size: 35px;
+        margin: 0 px;
+}
+} 
+/* Mobile */
+@media only screen and (max-width: 665px) and (min-width:375px){
+ header{
+    padding: 10px 15px;
+    text-align: center;
+}
+.navbar{
+     display:block;
+     align-items: center;
+}
+ .logo a {
+      
+    }
+.logo h3{
+    font-size: 20px;
+    text-align: center;
+}
+.logo h3 span{
+    font-weight: 200;
+}
+ nav ul{
+    padding: 0 ;
+    margin: 0;
+}
+ nav ul li{
+    display: inline;
+    margin:0 4px;
+}
+ nav ul li a {
+    font-size: 15px;
+}
+.banner{
+    text-align: center;
+    padding: 50px px;
+}
+.banner h3{
+     font-size: 25px;;
+}
+.banner span{
+    height: 4px;
+    width: 150px;
+    display:inline-block;
+}
+.banner h1{
+    font-size: 30px;;
+}
+.banner button{
+    padding: 10px 20px;
+}
+/*upcomming event*/
+.up-event{
+    text-align: center;
+    margin:50px 0px ;
+}
+.up-event h2{
+    font-size: 35px;
+}
+.up-event span{
+    background-color: rgb(255, 0, 0);
+    height: 4px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+.event{
+    display: block;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap :40px;
+    margin:30px 0 0 0;
+}
+.event-item img{
+    width: 250px;
+}
+.event-item h4{
+    font-size: 22px;
+    margin: 10px 0 0 0;
+}
+    
+.event-item a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+/* Explore */
+.explore{
+    padding: 70px 20px;
+    display: block;
+}
+.explore-item{
+    width: 30%;
+}
+.explore-item h1{
+    font-size: 35px;
+    margin: 0 0 0 0;
+}
+.explore-item span{
+     background-color: rgb(255, 0, 0);
+    height: 4px;
+   width: 190px;
+   display:inline-block;
+   border-radius: 5px;
+}
+.explore-item p{
+    margin: 20px 0 ;
+}
+.explore-item a{
+   font-size:18px; 
+   font-weight: 500;
+}
+/* UPCOMING TOUR AND DESTINATION */
+.tour{
+    padding: 60px 15px;
+    display: block;
+}
+.tour-item h5{
+    font-size: 20px;
+}
+.tour-item span{
+    border-radius: 8px;
+}
+.tour-item a{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.img-one{
+    height: 200px;
+    margin: 0 0 15px 0;
+    object-fit: cover;
+}
+.img-two{
+    height: 200px;
+    margin: 0 0 15px 0;
+    object-fit: cover;
+}
+/* Adventure Gallery */
+.adventure-gallery h2{
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+.adventure-gallery span{
+  background-color: rgb(255, 0, 0);
+  height: 5px;
+  width: 190px;
+  display: flex;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+#adventure-gallery {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #adventure-gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .gallery h2{
+    width: 95%;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay p {
+    font-size: 1.5em;
+  }
+/* Quiz */
+  .quiz-container {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 100%;
+  }
+  
+  .submit-btn button {
+    padding: 5px 10px;
+    font-size: 19px;
+  }
+  /* Customer Support section */
+  #customer-support {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  #customer-support h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #customer-support p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .support-container {
+    display: block;
+  }
+  
+  .contact-info, .contact-form {
+    width: 80%;
+  }
+  
+  .contact-info h3, .contact-form h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .contact-info li strong {
+    color: #007bff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+    .form-group input {
+    padding: 12px 12px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-group label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-btn {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: red;
+  }
+  
+/* booking   */
+  
+  .booking-container {
+    width: 75%;
+  }
+  /* Blog Newsletter */
+  
+  .blog span{
+    width: 245px;
+  } 
+  #newsletter h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #newsletter p {
+    font-size: 20px;
+  }
+  
+  .subscription-form {
+    width: 80%;
+  }
+   
+/* footer */
+footer{
+    padding: 50px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+.fa-brands{
+    font-size: 35px;
+    margin: 0 px;
+}
+}
+

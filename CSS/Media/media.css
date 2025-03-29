@@ -1,0 +1,143 @@
+/* Mobile */
+@media only screen and (max-height: 667px){
+    /* Banner */
+    body{
+        background-color: rgb(95, 95, 142);
+    }
+    header{
+        padding: 10px 15px;
+    }
+    .navbar{
+        display:block;
+        }
+    .logo a {
+      
+    }
+    .logo h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .logo h3 span{
+    font-weight: 200;
+    }
+    nav ul{
+        padding:0px ;
+    }
+    nav ul li{
+        display: inline;
+        margin: 5px;
+    }
+    nav ul li a {
+    }
+    .banner{
+        text-align: center;
+        padding: 50px px;
+    }
+    .banner h3{
+        font-size: 25px;;
+    }
+    .banner span{
+        height: 4px;
+        width: 150px;
+        display:inline-block;
+    }
+    .banner h1{
+        font-size: 30px;;
+    }
+    .banner button{
+        padding: 10px 20px;
+    }
+    /*upcomming event*/
+    .up-event{
+        text-align: center;
+        margin:50px 0px ;
+    }
+    .up-event h2{
+        font-size: 35px;}
+    .up-event span{
+        background-color: rgb(255, 0, 0);
+        height: 4px;
+        width: 190px;
+        display: inline-block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .event{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap :40px;
+        margin:30px 0 0 0;}
+    .event-item img{
+        width: 250px;
+    }
+    .event-item h4{
+        font-size: 22px;
+        margin: 10px 0 0 0;}
+    
+    .event-item a{
+        font-size: 20px;
+        color: red;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+    /* Explore */
+    .explore{
+        padding: 70px 20px;
+        display: block;
+    }
+    .explore-item{
+        width: 30%;
+    }
+    .explore-item h1{
+        font-size: 35px;
+        margin: 0 0 0 0;
+    }
+    .explore-item span{
+        background-color: rgb(255, 0, 0);
+        height: 4px;
+        width: 190px;
+        display:inline-block;
+        border-radius: 5px;
+    }
+    .explore-item p{
+        margin: 20px 0 ;
+    }
+    .explore-item a{
+        font-size:18px; 
+        font-weight: 500;
+    }
+     /* UPCOMING TOUR AND DESTINATION */
+.tour{
+    padding: 60px 15px;
+    display: block;
+}
+.tour-item h5{
+    font-size: 20px;
+}
+.tour-item span{
+}
+.tour-item a{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.img-one{
+    height: 200px;
+    margin: 0 0 15px 0;
+    object-fit: cover;
+}
+.img-two{
+    height: 200px;
+    margin: 0 0 15px 0;
+    object-fit: cover;
+}
+footer{
+    padding: 50px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+.fa-brands{
+    font-size: 30px;
+    margin: 0 px;
+}
+ }
