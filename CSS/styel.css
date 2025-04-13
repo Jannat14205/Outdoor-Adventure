@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Winky Sans", sans-serif;
+}
+
+img{
+  width:100% ;
+  max-width: 100%;
+  height: auto;
+}
+/* Banner */
+header{
+  color: whitesmoke;
+  align-items: center;
+  padding: 20px 50px;
+  background-image:url(../Image/cabo\ da\ roca.jpg) ;
+  background-color: rgb(0 0 0 / 79%);
+  background-blend-mode: multiply;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center ;
+}
+/* Hamburger Menu */
+.menu-toggle {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.logo a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.logo h3{
+  font-size: 25px;
+  margin: 0;
+  text-transform: capitalize;
+}
+.logo h3 span{
+  font-weight: 200;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+nav ul li{
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 600;
+  color: whitesmoke;
+  transition: color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  background-color:#007bff; 
+  padding: 5px;
+  border-radius: 5px;
+}
+.banner{
+  text-align: center;
+  padding: 100px 0px;
+}
+.banner h3{
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.banner span{
+  background-color: rgb(255, 0, 0);
+  height: 5px;
+  width: 190px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+.banner h1{
+  font-size: 70px;
+}
+.banner .btn{
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.banner .btn:hover{
+  background-color: red;
+  letter-spacing: 2px;
+  border: none;
+}
+
+/*upcomming event*/
+.up-event{
+    text-align: center;
+    margin:50px 159px ;
+}
+.up-event h2{
+    font-size: 40px;
+    margin-bottom: 10px ;
+    color: #333;
+}
+.up-event span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display:inline-block;
+    border-radius: 5px;
+}
+
+.event{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap :40px;
+    margin:30px 0 0 0;
+}
+.event-item img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.event-item h4{
+    font-size: 22px;
+    margin: 10px ;
+}
+
+.event-item a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: color 0.3s ease-in-out;
+}
+.event-item a:hover {
+    color: black ;
+    cursor: pointer;
+}
+/* Explore */
+.explore-main{
+    background-image: url(../Image/EXPLORE\ THE\ World.jpg);
+    background-position: center;
+    background-color: rgba(0, 0, 255, 0.458);
+    background-blend-mode: multiply;
+    color: whitesmoke;
+    background-attachment: fixed;
+
+}
+.explore{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.explore-item{
+    width: 50%;
+}
+.explore-item h1{
+    font-size: 70px;
+    margin: 10px 0 0 0;
+
+}
+.explore-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 250px;
+    display:inline-block;
+    margin:auto;
+    border-radius: 5px;
+}
+.explore-item p{
+    margin: 30px 0 ;
+}
+.explore-item a{
+    font: size 19px; 
+    font-weight: 600;
+    text-decoration: none;
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+.explore-item a:hover {
+    color: black;
+    cursor: pointer;
+}
+/* UPCOMING TOUR AND DESTINATION */
+.tour{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;;
+}
+.tour-item h5{
+    font-size: 25px;
+    margin: 0 ;
+    color: #333;
+}
+.tour-item span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+.tour-item a{
+    text-decoration: none;
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+.tour-item a:hover {
+    color: black ;
+    cursor: pointer;
+}
+
+.img-one{
+    height: 250px;
+    margin: 0 0 20px 0;
+    object-fit: cover;
+}
+.img-two{
+    height: 350px;
+    margin: 0 0 20px 0;
+    object-fit: cover;
+}
+/* Adventure Gallery */
+.adventure-gallery h2{
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+.adventure-gallery span{
+  background-color: rgb(255, 0, 0);
+  height: 5px;
+  width: 190px;
+  display: flex;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+#adventure-gallery {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #adventure-gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .gallery h2{
+    width: 95%;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay p {
+    font-size: 1.5em;
+  }
+/* Quiz */
+.quiz h1{
+  text-align: center;
+  color: #333;
+  margin: 50px 0 0 0;
+}
+.quiz span{
+  background-color: rgb(255, 0, 0);
+  height: 5px;
+  width: 190px;
+  display: flex;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+#adventure-quiz {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e9f7f7;
+  }
+  
+  #adventure-quiz h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .quiz-container {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 97%;
+    max-width: 100%;
+  }
+  
+  .question {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .question p {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .answers label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .answers input[type="radio"] {
+    margin-right: 10px;
+  }
+ 
+  .submit-btn .btn {
+    text-decoration: none;
+    max-width: 50%;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .submit-btn .btn:hover{
+    background-color: red;
+    letter-spacing: 2px;
+    border: none;
+  }
+  /* Customer Support section */
+  .redline h2{
+    text-align: center;
+  color: #333;
+  margin: 50px 0 0 0;
+  }
+  .redline span{
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 190px;
+    display: flex;
+    border-radius: 5px;
+    margin: 10px auto;
+  }
+  #customer-support {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  #customer-support h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #customer-support p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .support-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .contact-info, .contact-form {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h3, .contact-form h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .contact-info li strong {
+    color: #007bff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+    .form-group input {
+    padding: 12px 12px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-group label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .contact-form .btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .contact-form .btn:hover{
+    background-color: red;
+    letter-spacing: 2px;
+    border: none;
+  }
+  
+/* booking   */
+.booking h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px auto;
+  color: #333;
+}
+.booking span{
+  background-color: rgb(255, 0, 0);
+  height: 5px;
+  width: 190px;
+  display: flex;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+#booking {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #booking h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .booking-container {
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 100%;
+  }
+  
+  .booking-form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-group .btn  {
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .form-group .btn:hover{
+    background-color: red;
+    letter-spacing: 2px;
+    border: none;
+  }
+  /* Blog Newsletter */
+  .blog span{
+    background-color: rgb(255, 0, 0);
+    height: 4px;
+    width: 600px;
+    display: flex;
+    border-radius: 5px;
+    margin: 10px auto;
+  }
+  #newsletter {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f9f9;
+  }
+  
+  #newsletter h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #newsletter p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .subscription-form {
+    display: inline-block;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    padding: 12px 20px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group .btn  {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .form-group .btn:hover{
+    background-color: red;
+    letter-spacing: 2px;
+    border: none;
+  }
+   
+/* footer */
+footer{
+    padding: 100px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+.fa-brands{
+    font-size: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.fa-brands:hover {
+transform: scale(1.5);
+}
